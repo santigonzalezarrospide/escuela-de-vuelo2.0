@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css-agenda.css">
+
+    <title>ESCUELA DE VUELO</title>
+</head>
+<body>
+    <header>
+        <h1>AGENDA      <i class="far fa-calendar-alt"></i></h1>
+    </header>
+    <nav>
+        <div><b><u><a href="proyecto.html">INICIO</a></u></b></div>
+        <div><b><u>CURSOS</u></b></div> 
+        <div><b><u>REQUISITOS</u></b></div>
+        <div><b><u><a href="agenda.html">AGENDA</a></u></b></div> 
+        <div><b><u><a href="contacto.html">CONTACTO</a></u></b></div>
+        <div><b><u><a href="log-in.html">INICIAR SESION</a></u></b></div>
+    </nav>
+    <article>
+        <form action="javascript:void(0)">
+            <h1>AGENDA TU VUELO</h1>
+            <span>*Campo obligatorio</span>
+                <input id="name" type="text" name="Name" placeholder="Nombre*" />
+                <input id="apell" type="text" name="Apell" placeholder="Apellido*" />
+                <input id="tel" type="text" name="Tel" placeholder="Telefono*" />
+                <input id="mail" type="text" name="Mail" placeholder="Email*" />
+        
+            <select name="select1" id="dia">
+                 <option value="" disabled selected>DIA*</option>
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+                 <option value="13">13</option>
+                 <option value="14">14</option>
+                 <option value="15">15</option>
+                 <option value="16">16</option>
+                 <option value="17">17</option>
+                 <option value="18">18</option>
+                 <option value="19">19</option>
+                 <option value="20">20</option>
+                 <option value="21">21</option>
+                 <option value="22">22</option>
+                 <option value="23">23</option>
+                 <option value="24">24</option>
+                 <option value="25">25</option>
+                 <option value="26">26</option>
+                 <option value="27">27</option>
+                 <option value="28">28</option>
+                 <option value="29">29</option>
+                 <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            <select name="select2" id="mes">
+                 <option value="" disabled selected>MES*</option>
+                 <option value="ENERO">ENERO</option>
+                 <option value="FEBRERO">FEBRERO</option>
+                 <option value="MARZO">MARZO</option>
+                 <option value="ABRIL">ABRIL</option>
+                 <option value="MAYO">MAYO</option>
+                 <option value="JUNIO">JUNIO</option>
+                 <option value="JULIO">JULIO</option>
+                 <option value="AGOSTO">AGOSTO</option>
+                 <option value="SETIEMBRE">SETIEMBRE</option>
+                 <option value="OCTUBRE">OCTUBRE</option>
+                 <option value="NOVIEMBRE">NOVIEMBRE</option>
+                 <option value="DICIEMBRE">DICIEMBRE</option>
+            </select>
+
+            <select name="select3" id="hora">
+                 <option value="" disabled selected>HORA*</option>
+                 <option value="08:00">08:00</option>
+                 <option value="08:30">08:30</option>
+                 <option value="09:00">09:00</option>
+                 <option value="09:30">09:30</option>
+                 <option value="10:00">10:00</option>
+                 <option value="10:30">10:30</option>
+                 <option value="11:00">11:00</option>
+                 <option value="11:30">11:30</option>
+                 <option value="12:00">12:00</option>
+                 <option value="12:30">12:30</option>
+                 <option value="13:00">13:00</option>
+                 <option value="13:30">13:30</option>
+                 <option value="14:00">14:00</option>
+                 <option value="14:30">14:30</option>
+                 <option value="15:00">15:00</option>
+                 <option value="15:30">15:30</option>
+                 <option value="16:00">16:00</option>
+                 <option value="16:30">16:30</option>
+                 <option value="17:00">17:00</option>
+                 <option value="17:30">17:30</option>
+                 <option value="18:00">18:00</option>
+                 <option value="18:30">18:30</option>
+                 <option value="19:00">19:00</option>
+                 <option value="19:30">19:30</option>
+                 <option value="20:00">20:00</option>
+                 <option value="20:30">20:30</option>
+                 <option value="21:00">21:00</option>
+                 <option value="21:30">21:30</option>
+                 <option value="22:00">22:00</option>
+            </select>
+
+            <select  name="select4" id="vuelo">
+                <option value="" disabled selected>TIPO DE VUELO*</option>
+                <option value="INSTRUCCIÓN LOCAL">INSTRUCCIÓN LOCAL</option>
+                <option value="INSTRUCCIÓN DIURNA">INSTRUCCIÓN DIURNA</option>
+                <option value="INSTRUCCIÓN NOCTURNA">INSTRUCCIÓN NOCTURNA</option>
+                <option value="INSTRUCCIÓN TRAVESIA">INSTRUCCIÓN TRAVESIA</option>
+                <option value="INSTRUCCIÓN H.V.I">INSTRUCCIÓN H.V.I</option>
+                <option value="INSTRUCCIÓN MULTIMOTOR">INSTRUCCIÓN MULTIMOTOR</option>
+                <option value="SIMULADOR">SIMULADOR</option>
+                <option value="VUELO DE ENTRENAMIENTO">VUELO DE ENTRENAMIENTO</option>
+                <option value="PRUEBA DE SUFICIENCIA">PRUEBA DE SUFICIENCIA</option>
+                <option value="VUELO DE PASEO">VUELO DE PASEO</option>
+            </select>
+                
+                <button id="agendar">Agendar</button>
+        </form>
+            <section id="agenda">
+                <ul id="agenda">
+                </ul>
+            </section>
+       
+    </article>
+    <aside>
+        <img src="img2/agenda.jpg.jpg">
+    </aside>
+    <footer>
+        <span>Copyright © 2021 Santiago González</span>
+        <div>
+            <i class="fab fa-facebook-square"></i> 
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+        </div> 
+    </footer>
+    <script src=./js-agenda.js> </script>
+</body>
+</html>    
